@@ -17,7 +17,7 @@ peewee = "*"
 flask-login = "*"
 flask-bcrypt = "*"
 flask-wtf = "*"
-
+gunicorn = "*"
 
 [requires]
 
