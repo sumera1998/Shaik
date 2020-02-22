@@ -1,6 +1,6 @@
-flask
-peewee
-flask-login
-flask-bcrypt
-flask-wtf
-gunicorn
+flask>=1.1.1
+peewee>=3.13.1
+flask-login>=0.4.1
+flask-bcrypt>=0.7.1
+flask-wtf>=0.9.0
+gunicorn>=19.9.0
