@@ -11,6 +11,7 @@ PORT = 8000
 HOST = '0.0.0.0'
 
 app = Flask(__name__)
+app.config["TEMPLATES_AUTO_RELOAD"] = True
 app.secret_key = 'asdnafnj#46sjsnvd(*$43sfjkndkjvnskb6441531@#$$6sddf'
 """here secret_key is a random string of alphanumerics"""
 
